@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class UIController : MonoBehaviour {
 
-
+	NetworkManager nm;
 
 	// Use this for initialization
 	void Start () {
-		
+		nm = GameObject.FindObjectOfType<NetworkManager>();
 	}
 	
 	// Update is called once per frame
@@ -17,14 +17,14 @@ public class UIController : MonoBehaviour {
 	}
 
 	public void setName(){
-
+		nm.Connect();
 	}
 
-	public void joinRoom(string roomName){
-
+	public void joinRoom() {
+		nm.JoinRoom();
 	}
 
 	public void createRoom(){
-
+		nm.CreateRoom();
 	}
 }
