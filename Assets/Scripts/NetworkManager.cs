@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon;
 
-public class MatchMaker : Photon.PunBehaviour {
+public class NetworkManager : Photon.PunBehaviour {
 
 	// Use this for initialization
 	void Start () {
