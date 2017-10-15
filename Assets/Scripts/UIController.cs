@@ -18,6 +18,7 @@ public class UIController : MonoBehaviour {
 
 	public void setName(){
 		nm.Connect();
+		GameObject.Find ("Camera").transform.Translate(new Vector3(200,0,0));
 	}
 
 	public void joinRoom() {

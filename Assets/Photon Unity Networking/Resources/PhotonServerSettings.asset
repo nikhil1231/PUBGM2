@@ -21,7 +21,7 @@ MonoBehaviour:
   ServerAddress: 52.232.42.80
   ServerPort: 5055
   VoiceServerPort: 5055
-  JoinLobby: 1
+  JoinLobby: 0
   EnableLobbyStatistics: 0
   PunLogging: 0
   NetworkLogging: 1
